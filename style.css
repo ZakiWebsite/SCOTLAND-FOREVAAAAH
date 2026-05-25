@@ -1,5 +1,5 @@
 .hero-image{
-    background-image: url("./images/scotland-1987599_1280.jpg"); 
+    background-image: url("scotland-1987599_1280.jpg"); 
     height: 352px;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,6 +7,10 @@
 
 }
 
+img {
+    width: 100%;
+
+}
 .hero-text{
     width: 100%;
     color: whitesmoke;
@@ -14,3 +18,17 @@
     text-align: center;
     font: 100px Arial;
 }
+
+h1 {
+    font: 50px Arial;
+}
+
+p {
+    font: 30px Arial;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}   
