@@ -1,3 +1,4 @@
+/* set up the hero image*/
 .hero-image{
     background-image: url("scotland-1987599_1280.jpg"); 
     height: 352px;
@@ -7,10 +8,14 @@
 
 }
 
+/* sets up the image*/
+
 img {
     width: 100%;
     border-radius: 5px;
 }
+
+/* sets up the text on the hero image*/
 .hero-text{
     width: 100%;
     color: whitesmoke;
@@ -19,14 +24,18 @@ img {
     font: 100px Arial;
 }
 
+/* applies to all heading text*/
 h1 {
     font: 50px Arial;
 }
 
+/* applies to all paragraph text */
 p {
     font: 30px Arial;
 }
 
+
+/* formats the main information section*/
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,11 +45,13 @@ p {
     margin-top: 40px;
 }   
 
+/* applies to all text in the 'info' class*/
 .info {
     font-size: 1.25em;
     
 }
 
+/* sets up the bagpipes section*/
 .three-column {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -51,10 +62,12 @@ p {
     margin-bottom: 50px;
 }
 
+/* handles the card at the bottom on the bagpipe images */
 .card {
     background-color: aqua;   
 }
 
+/* handles the text on the card of the bagpipe images */
 .card-text {
     text-align: center;
     font: 50px Arial;
