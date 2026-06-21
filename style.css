@@ -8,8 +8,12 @@
 
 }
 
-/* sets up the image*/
+/* applies to all text*/
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+/* sets up the images*/
 img {
     width: 100%;
     border-radius: 5px;
@@ -17,28 +21,20 @@ img {
 
 /* sets up the text on the hero image*/
 .hero-text{
-    width: 100%;
-    color: whitesmoke;
+    top: 180px;
     position: absolute;
+    color: whitesmoke;
     text-align: center;
-    font: 100px Arial;
+    font-size: 4rem;
+    width: 100%;
 }
 
-/* applies to all heading text*/
-h1 {
-    font: 50px Arial;
-}
-
-/* applies to all paragraph text */
-p {
-    font: 30px Arial;
-}
 
 
 /* formats the main information section*/
 .two-column {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     gap: 50px;
     width: 80%;
     margin: auto;
@@ -48,14 +44,14 @@ p {
 /* applies to all text in the 'info' class*/
 .info {
     font-size: 1.25em;
-    
+
 }
 
 /* sets up the bagpipes section*/
 .three-column {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 100px;
     width: 80%;
     margin: auto;
     margin-top: 40px;
@@ -64,12 +60,11 @@ p {
 
 /* handles the card at the bottom on the bagpipe images */
 .card {
-    background-color: aqua;   
+    background-color: rgb(0,0, 140);   
 }
 
 /* handles the text on the card of the bagpipe images */
 .card-text {
     text-align: center;
-    font: 50px Arial;
-    color: whitesmoke
+    color: whitesmoke;
 }
